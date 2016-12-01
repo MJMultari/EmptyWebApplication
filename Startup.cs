@@ -30,7 +30,7 @@ namespace EmptyWebApplication
 
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync("Hi From Mac!");
+                await context.Response.WriteAsync("Hi From Mac!/n Hi From PC!");
             });
         }
     }
